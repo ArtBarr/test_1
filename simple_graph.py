@@ -34,5 +34,5 @@ app.layout = html.Div([html.H1('Hello Dash',
                                                         yaxis={'title':'druga_os'}
                                                         )})])
 
-if __name__=='__main__':
-    app.run_server(host='0.0.0.0', port=8080)
+#if __name__=='__main__':
+ #   app.run_server(host='0.0.0.0', port=8080)
