@@ -13,6 +13,7 @@ x1=np.random.randint(1,101,100)
 y1=np.random.randint(1,101,100)
 
 app=dash.Dash()
+server=app.server
 
 
 app.layout = html.Div([html.H1('Hello Dash', 
